@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Intro</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px 0; /* Adds space at the top */
+    background-color: #000000;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Aligns at top, but with padding */
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #f8c8dc;
+    padding: 30px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 700px;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
+    margin-top: 20px; /* Extra safety margin */
+}
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #000;
+        }
+        .question {
+            margin-bottom: 30px;
+        }
+        .answer {
+            font-size: 1.3em;       /* Slightly larger text */
+            font-weight: bold;      /* Makes it stand out */
+            color: #000;            /* Dark text for contrast on pink */
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5); /* Subtle glow effect */
+            margin-bottom: 15px;
+        }
+
+        .question h2 {
+            font-size: 1.2em;
+            color: #4b004b;          /* Darker purple/pink for title contrast */
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
+        }
+        .question img {
+            max-width: 400px; /* scales it down */
+            height: auto; /* keeps aspect ratio */
+            border-radius: 8px;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Me</h1>
+
+        <div class="question">
+            <h2>Favorite culture that you're not native to:</h2>
+            <div class="answer">Native American</div>
+            <div class="image-placeholder"><img src="native.avif" alt="powow" ></native></div>
+        </div>
+
+        <div class="question">
+            <h2>Two or more historical figures that you relate to:</h2>
+            <div class="answer">Charolette Bronte & Cleopatra </div>
+            <div class="image-placeholder"><img src="charlottebronte.jpg" alt="Bronte"><img src="cleopatra.jpg"></div>
+        </div>
+
+        <div class="question">
+            <h2>A meal that represents you:</h2>
+            <div class="answer">Chicken Pot Pie</div>
+            <div class="image-placeholder"><img src="chickenpotpie.jpg" alt="pot-pie"></div>
+        </div>
+
+        <div class="question">
+            <h2>I feel most creative when I...</h2>
+            <div class="answer">play guitar</div>
+            <div class="image-placeholder"><img src="guitar.jpg" alt="guitar"></div>
+        </div>
+    </div>
+</body>
+</html>
